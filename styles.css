@@ -47,3 +47,17 @@
   font-family: 'DM Sans';
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
 }
+
+/* || Main Styles */
+
+body {
+  background-color: var(--yellow-100);
+  padding: 2rem 1rem;
+}
+
+.bento-grid-container {
+  display: grid;
+  grid-template-rows: 18.125rem 10.1587rem 13.5156rem 29.3069rem 23.2638rem 13.4738rem 14.6469rem 21.9063rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
